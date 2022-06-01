@@ -10,3 +10,15 @@ body {
   flex-flow: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.componente {
+  background-color: rgb(30, 30, 30);
+  margin: 10px;
+  padding: 20px;
+  flex-flow: column;
+}
+
+p {
+  justify-content: center;
+  align-items: center;
+}
