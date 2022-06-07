@@ -20,5 +20,12 @@ body {
 
 p {
   justify-content: center;
+  margin-bottom: 10px;
   align-items: center;
+}
+
+.mariana {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
 }
