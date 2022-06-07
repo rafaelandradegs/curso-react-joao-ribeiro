@@ -9,7 +9,7 @@ import React from 'react'
 const ComponenteTres = props => {
   return (
     <div className="componente">
-      <p>Titulo: {props.titulo}</p>
+      <p className="titulo">Titulo: {props.titulo}</p>
       <p>Subtitulo: {props.subtitulo}</p>
     </div>
   )

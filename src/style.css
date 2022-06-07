@@ -16,16 +16,11 @@ body {
   margin: 10px;
   padding: 20px;
   flex-flow: column;
+  border: 1px solid gray;
+  border-radius: 5px;
 }
 
-p {
-  justify-content: center;
-  margin-bottom: 10px;
-  align-items: center;
-}
-
-.mariana {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
+.titulo {
+  background: rgb(37, 109, 122);
+  padding: 5px;
 }
