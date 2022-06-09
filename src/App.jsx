@@ -7,12 +7,14 @@ import ComponenteSeis from './components/ComponenteSeis'
 import ComponenteSete from './components/ComponenteSete'
 import ComponenteOito from './components/ComponenteOito'
 import { ComponenteNove } from './components/ComponenteNove'
+import ComponenteDez from './components/ComponenteDez'
 
 import './style.css'
 
 export default function App() {
   return (
     <div>
+      <ComponenteDez titulo="Componente dez" corTexto="green" />
       <ComponenteNove titulo="Componente Nove" valor="Joao" />
       <ComponenteOito titulo="Componente Oito" valor="Joao" />
       <ComponenteSete titulo="Componente Sete" valor={1} />
