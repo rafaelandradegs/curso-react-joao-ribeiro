@@ -10,12 +10,14 @@ import { ComponenteDois } from './components/ComponenteDois'
 import { ComponenteUm } from './components/ComponenteUm'
 import { ComponenteNove } from './components/ComponenteNove'
 import { ComponentePai } from './components/comunicacao_direta/ComponentePai'
+import { ComponenteMae } from './components/comunicacao_indireta/ComponenteMae'
 
 import './style.css'
 
 export default function App() {
   return (
     <div>
+      <ComponenteMae titulo="Comunicacao indireta" />
       <ComponentePai titulo="Comunicacao direta"></ComponentePai>
       <ComponenteDez titulo="Componente dez" corTexto="green" />
       <ComponenteNove titulo="Componente Nove" valor="Joao" />
