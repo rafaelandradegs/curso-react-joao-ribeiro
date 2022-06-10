@@ -12,12 +12,14 @@ import { ComponenteNove } from './components/ComponenteNove'
 import { ComponentePai } from './components/comunicacao_direta/ComponentePai'
 import { ComponenteMae } from './components/comunicacao_indireta/ComponenteMae'
 import { ComponenteA } from './components/comunicacao_indireta_2/ComponenteA'
+import { ComponenteAvoA } from './components/comunicacao_direta_2/ComponenteAvoA'
 
 import './style.css'
 
 export default function App() {
   return (
     <div>
+      <ComponenteAvoA titulo="ComponenteAvoA" />
       <ComponenteA titulo="Comunicacao indireta v2" />
       <ComponenteMae titulo="Comunicacao indireta" />
       <ComponentePai titulo="Comunicacao direta"></ComponentePai>
